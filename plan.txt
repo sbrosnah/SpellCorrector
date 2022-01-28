@@ -1,0 +1,8 @@
+Steps:
+1. Read the text file into a dictionary
+    -We want the keys to be case insensitive
+    -Later, I will implement the dictionary as a Trie
+ 2. Load words in user input using Trie.add(String)
+    -Compare the strings using Trie.find(String)
+        - This will compare by recursively calling find_closest_dist_one
+
